@@ -204,9 +204,19 @@ header i:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* padding-top: 30px; */
+}
+.project-container {
+  width: 90vw;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
 }
 
 .project-card {
+  margin: 8px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -222,9 +232,24 @@ header i:hover {
   width: 330px;
 }
 
+.tech-project {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 8px;
+}
+
 button {
-  /* width: 150px; */
+  width: 120px;
   height: 50px;
   font-size: 36px;
+  font-family: "Raleway";
   padding: 0;
+  
 }

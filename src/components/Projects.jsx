@@ -15,6 +15,36 @@ function Projects() {
           <li>Axios</li>
           <li>REST API</li>
         </ul>
+        <p>This app uses axios get requests to dig into a REST API which displays the data on the fron ten dfor use by the user.</p>
+        <div className="button-container">
+          <button>Code</button>
+          <button>Live</button>
+        </div>
+        </div>
+
+        <div className="project-card">
+          <h2>New U Fitness</h2>
+        <iframe ><p>Demo to be recorded</p></iframe>
+        <h2>Tech Used</h2>
+        <div className="tech-project">
+          <div className="tech-used-column">
+            <ul>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Express</li>
+            </ul>
+          </div>
+          <div className="tech-used-column">
+            <ul>
+              <li>PostgresSQL</li>
+              <li>Sequelize</li>
+              <li>HTML / CSS</li>
+            </ul>
+          </div>
+          
+        </div>
+        
+        <p>This app uses axios get requests to dig into a REST API which displays the data on the fron ten dfor use by the user.</p>
         <div className="button-container">
           <button>Code</button>
           <button>Live</button>
