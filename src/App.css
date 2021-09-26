@@ -85,15 +85,15 @@ body {
 
 h1 {
   color: #D1603D;
-  font-size: 36px;
+  font-size: 2rem;
   text-shadow:1px 1px black;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 1.3rem;
 }
 p {
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 header {
@@ -193,7 +193,7 @@ header i:hover {
   display: flex;
   justify-content: space-around;
   width: 90vw;
-  height: 60vh;
+  height: 80%;
 }
  img {
   height: 100%;
@@ -208,6 +208,14 @@ header i:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.about-container h1 {
+  font-size: 2rem;
+}
+
+.about-container h2 {
+  font: 1em;
 }
 
 .technologies {
@@ -250,15 +258,16 @@ header i:hover {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  justify-content: space-between;
   background: white;
   padding: 15px;
   border-radius: 5px;
   /* height: 600px; */
-  width: 400px;
+  width: 30%;
 }
 .project-card iframe {
-  height: 200px;
-  width: 330px;
+  /* height: 200px; */
+  width: 100%;
 }
 
 .tech-project {
