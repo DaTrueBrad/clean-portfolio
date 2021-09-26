@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Intro from './components/Intro';
 import About from './components/About';
 import Projects from './components/Projects';
+import ErrorBoundary from './components/ErrorBoundary';
+import Contact from './components/Contact';
 
 function App() {
   
@@ -12,6 +14,7 @@ function App() {
       <Intro />
       <About />
       <Projects />
+      <Contact />
     </div>
   );
 }

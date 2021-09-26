@@ -24,7 +24,7 @@ function Projects() {
 
         <div className="project-card">
           <h2>New U Fitness</h2>
-        <iframe ><p>Demo to be recorded</p></iframe>
+          <iframe src="https://drive.google.com/file/d/1_QUVEOI1536M5mkX7mIcDjuRGENw_GWZ/preview" width="640" height="480" allow="autoplay"></iframe>
         <h2>Tech Used</h2>
         <div className="tech-project">
           <div className="tech-used-column">
@@ -44,7 +44,7 @@ function Projects() {
           
         </div>
         
-        <p>This app uses axios get requests to dig into a REST API which displays the data on the fron ten dfor use by the user.</p>
+        <p>New U is a workout builder that allows users to create workout programs up to 24 weeks in length, select one as a current program, browse articles, track stats, and save their favorites to their account. </p>
         <div className="button-container">
           <button>Code</button>
           <button>Live</button>
