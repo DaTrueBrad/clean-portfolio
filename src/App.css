@@ -234,18 +234,18 @@ header i:hover {
 }
 
 #projects-section {
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   background-color: rgba(17,53,55);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding-top: 30px; */
+  padding-top: 30px;
 }
 .project-container {
   width: 90vw;
-  height: 60vh;
+  height: 90vh;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -262,7 +262,7 @@ header i:hover {
   background: white;
   padding: 15px;
   border-radius: 5px;
-  /* height: 600px; */
+  height: 80vh;
   width: 30%;
 }
 .project-card iframe {
@@ -281,6 +281,18 @@ header i:hover {
   justify-content: space-around;
   width: 100%;
   margin-top: 8px;
+}
+
+.button-container i {
+  transition: all 0.2s ease-in-out;
+  font-size: 78px;
+  color: #D1603D;
+}
+
+.button-container i:hover {
+  transition: all 0.2s ease-in-out;
+  transform: rotate(-10deg);
+  font-size: 88px;
 }
 
 button {
