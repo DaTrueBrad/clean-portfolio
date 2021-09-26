@@ -19,8 +19,10 @@ function About() {
         <div className="tech-wrapper">
           <h2>Developer Technologies</h2> 
           <div className="technologies">
-            <i class='bx bxl-javascript' style={{color: '#F7DF1E'}}></i>
+            {/* //TODO Add funtionality so that when the user hovers over a technology, it will display that technology name. */}
             <i class='bx bxl-react' style={{color: '#5ED3F3'}}></i>
+            <i class='bx bxl-redux' style={{color: '#7248B6'}}></i>
+            <i class='bx bxl-javascript' style={{color: '#F7DF1E'}}></i>
             <i class='bx bxl-nodejs' style={{color: '#87BF00'}}></i>
             <i class='bx bxl-html5' style={{color: '#DE4E26'}}></i>
             <i class='bx bxl-css3' style={{color: '#2862E9'}}></i>
