@@ -1,38 +1,230 @@
-.App {
-  text-align: center;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: clip;
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App {
+  scroll-snap-type: y mandatory;
+}
+
+h1 {
+  color: #D1603D;
+  font-size: 36px;
+  text-shadow:1px 1px black;
+}
+
+h2 {
+  font-size: 28px;
+}
+p {
+  font-size: 20px;
+}
+
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 60px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(17,53,55,0.8);
+}
+
+header i {
+  transition: all 0.2s ease-in-out;
+  font-size: 48px;
+  margin-top: 15px;
+  color: #D1603D;
+}
+
+
+header i:hover {
+  transition: all 0.2s ease-in-out;
+  transform: rotate(-10deg);
+  font-size: 55px;
+}
+
+#intro-section {
+  scroll-snap-align: start;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+  url('./darkMountains.jpg') no-repeat fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.intro-text {
+  display: flex;
+}
+
+.intro-text h1 {
   color: white;
+  font-size: 36px;
+  text-shadow:1px 1px black;
 }
 
-.App-link {
-  color: #61dafb;
+.colorName {
+  color: #D1603D;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#about-me-section {
+  background: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-around;
+  width: 90vw;
+  height: 60vh;
+}
+ img {
+  height: 100%;
+  /* margin-left: 10vw; */
+  border-radius: 5px;
+  
+}
+
+.about-container {
+  scroll-snap-align: start;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.technologies {
+  display: flex;
+}
+
+.technologies i {
+  transition: all 0.2s ease-in-out;
+  font-size: 78px;
+}
+
+.technologies i:hover {
+  transition: all 0.2s ease-in-out;
+  transform: rotate(-10deg);
+  font-size: 88px;
+}
+
+#projects-section {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(17,53,55);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  height: 600px;
+  width: 400px;
+}
+.project-card iframe {
+  height: 200px;
+  width: 330px;
+}
+
+button {
+  /* width: 150px; */
+  height: 50px;
+  font-size: 36px;
+  padding: 0;
 }
