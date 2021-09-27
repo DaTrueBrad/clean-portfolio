@@ -9,7 +9,7 @@ function Projects() {
           <div>
             <h2>Pokemon Team Builder</h2>
             <iframe src="https://drive.google.com/file/d/1uBSVvqlTE8PuFtH4got1eI9bMxEvTze3/preview" allow="autoplay"></iframe>
-            <p>This app uses axios get requests to dig into a REST API which displays the data on the fron ten dfor use by the user.</p>
+            <p>This app uses Axios GET requests to dig into a REST API which displays select data on the front end for use by the user.</p>
           </div>
           <div className="button-container">
             <a href="https://github.com/DaTrueBrad/pokemon-team-builder" target="_blank"><i class='bx bx-code-block'></i></a>
@@ -21,7 +21,7 @@ function Projects() {
           <div>
             <h2>New U Fitness</h2>
             <iframe src="https://drive.google.com/file/d/1_QUVEOI1536M5mkX7mIcDjuRGENw_GWZ/preview" allow="autoplay"></iframe>
-            <p>New U is a workout builder that allows users to create workout programs up to 24 weeks in length, select one as a current program, browse articles, track stats, and save their favorites to their account. </p>
+            <p>New U is an online platform for users to center their physical health. Users can create workouts themselves or pick one from a pre-made template made by a top coach, and follow along tracking their progress! If users are not familiar on the ins-and-outs of health and fitness, New U has an articles page where the most informative, simple, and correct articles on the planet will be linked so users can have guidance on their journey.</p>
           </div>
           <div className="button-container">
             <a href="https://github.com/DaTrueBrad/newU" target="_blank"><i class='bx bx-code-block'></i></a>

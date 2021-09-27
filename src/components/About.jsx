@@ -10,11 +10,11 @@ function About() {
         <div className="about-text">
           <h1>About Me</h1>
           <h2>Web Developer</h2>
-          <p>I am a web developer based out of Vineyard, UT! I graduate from Dev Mopuntain in Lehi with a certificate as a Full-Stack Engineer (PERN stack) in October. By the time I graduate, I will have copleted 2 full projects and assisted on 4 others.</p>
+          <p>I am a web developer based out of Vineyard, UT! I graduate from Dev Mountain in Lehi with a certificate as a Full-Stack Engineer (PERN stack) in October. By the time I graduate, I will have completed 2 full projects and assisted on 4 others.</p>
           <h2>Powerlifter</h2>
           <p>My hard work and drive comes from my experience as a personal trainer and a powerlifter! I'm a big believer that hard physical work can increase your mental fortitude and overall capabilities.</p>
           <h2>Hiker</h2>
-          <p>The outdoors are my favorite! I enjoy trail running, hiking, backpacking, and cmaping. Beign in nature is comforting, relaxing, and is a good reset from the business of civilization.</p>
+          <p>The outdoors are my favorite! I enjoy trail running, hiking, backpacking, and camping. Being in nature is comforting, relaxing, and is a good reset from the business of civilization.</p>
         </div>
         <div className="tech-wrapper">
           <h2>Developer Technologies</h2> 
