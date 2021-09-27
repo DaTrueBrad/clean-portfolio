@@ -365,6 +365,22 @@ header i {
   color: #D1603D;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #D1603D;
+}
+
+/* Handle on hover */
 
 header i:hover {
   transition: all 0.2s ease-in-out;
