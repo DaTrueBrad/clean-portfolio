@@ -154,7 +154,7 @@ select {
 
   .intro-text {
     display: flex;
-    text-align: center;
+    text-align: ;
   }
 
   .intro-text h1 {
@@ -240,7 +240,7 @@ select {
   }
 
   .project-card {
-    margin: 8px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
