@@ -72,6 +72,275 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+@media only screen and (max-width: 599px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    overflow-x: clip;
+  }
+
+  .App {
+    scroll-snap-type: y mandatory;
+  }
+
+  h1 {
+    color: #D1603D;
+    font-size: 2rem;
+    text-shadow:1px 1px black;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    width: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(17,53,55);
+  }
+
+  header i {
+    transition: all 0.2s ease-in-out;
+    font-size: 48px;
+    margin-top: 15px;
+    color: #D1603D;
+  }
+
+
+  header i:hover {
+    transition: all 0.2s ease-in-out;
+    transform: rotate(-10deg);
+    font-size: 55px;
+  }
+
+  .error-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .error-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .error-container i {
+    font-size: 188px;
+    color: rgba(17,53,55);
+  }
+
+  .error-container button {
+    width: auto;
+    height: auto;
+    padding: 0px 10px 10px 10px;
+    background-color: white;
+    color: rgba(17,53,55);
+    border-radius: 5px;
+    border: 2px solid #D1603D;
+  }
+
+  #intro-section {
+    scroll-snap-align: start;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('./darkMountains.jpg') no-repeat fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-text {
+    display: flex;
+  }
+
+  .intro-text h1 {
+    color: white;
+    font-size: 36px;
+    text-shadow:1px 1px black;
+  }
+
+  .colorName {
+    color: #D1603D;
+  }
+
+  #about-me-section {
+    background: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+
+  .total-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90vw;
+    height: 80%;
+  }
+  img {
+    height: 100%;
+    /* margin-left: 10vw; */
+    border-radius: 5px;
+    
+  }
+
+  .about-container {
+    scroll-snap-align: start;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .about-container h1 {
+    font-size: 2rem;
+  }
+
+  .about-container h2 {
+    font: 1em;
+  }
+
+  .technologies {
+    display: flex;
+  }
+
+  .technologies i {
+    transition: all 0.2s ease-in-out;
+    font-size: 78px;
+  }
+
+  .technologies i:hover {
+    transition: all 0.2s ease-in-out;
+    transform: rotate(-10deg);
+    font-size: 88px;
+  }
+
+  #projects-section {
+    height: 120vh;
+    width: 100vw;
+    background-color: rgba(17,53,55);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .project-container {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+
+  .project-card {
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    height: 80vh;
+    width: 30%;
+  }
+  .project-card iframe {
+    /* height: 200px; */
+    width: 100%;
+  }
+
+  .tech-project {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .button-container i {
+    transition: all 0.2s ease-in-out;
+    font-size: 78px;
+    color: #D1603D;
+  }
+
+  .button-container i:hover {
+    transition: all 0.2s ease-in-out;
+    transform: rotate(-10deg);
+    font-size: 88px;
+  }
+
+  button {
+    width: 120px;
+    height: 50px;
+    font-size: 36px;
+    font-family: "Raleway";
+    padding: 0;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  #contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+
+  }
+
+  .contact-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+
+  .contact-container i {
+    transition: all 0.2s ease-in-out;
+    font-size: 78px;
+  }
+
+  .contact-container i:hover {
+    transition: all 0.2s ease-in-out;
+    transform: rotate(-10deg);
+    font-size: 88px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  
 html {
   scroll-behavior: smooth;
 }
@@ -333,4 +602,5 @@ button:hover {
   transition: all 0.2s ease-in-out;
   transform: rotate(-10deg);
   font-size: 88px;
+}
 }
