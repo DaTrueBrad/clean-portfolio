@@ -12,8 +12,8 @@ function Projects() {
             <p>This app uses axios get requests to dig into a REST API which displays the data on the fron ten dfor use by the user.</p>
           </div>
           <div className="button-container">
-          <i class='bx bx-code-block'></i>
-            <i class='bx bx-globe'></i>
+            <a href="https://github.com/DaTrueBrad/pokemon-team-builder" target="_blank"><i class='bx bx-code-block'></i></a>
+            <a href="https://pokemon-team-and-stats.herokuapp.com/" target="_blank"></a><i class='bx bx-globe'></i>
           </div>
         </div>
 
@@ -24,8 +24,7 @@ function Projects() {
             <p>New U is a workout builder that allows users to create workout programs up to 24 weeks in length, select one as a current program, browse articles, track stats, and save their favorites to their account. </p>
           </div>
           <div className="button-container">
-            <i class='bx bx-code-block'></i>
-            <i class='bx bx-globe'></i>
+            <a href="https://github.com/DaTrueBrad/newU" target="_blank"><i class='bx bx-code-block'></i></a>
           </div>
         </div>
       </div>
