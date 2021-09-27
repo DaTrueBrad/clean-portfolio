@@ -92,12 +92,13 @@ select {
     top: 0;
     left: 0;
     background-color: rgba(17,53,55);
+    z-index: 100;
   }
 
   header i {
     transition: all 0.2s ease-in-out;
     font-size: 48px;
-    margin-top: 15px;
+    margin-top: 5px;
     color: #D1603D;
   }
 
@@ -311,7 +312,7 @@ select {
 
   .contact-container i {
     transition: all 0.2s ease-in-out;
-    font-size: 2.5rem;
+    font-size: 48px;
   }
 
   .contact-container i:active {
@@ -408,6 +409,9 @@ header i:hover {
     rgba(0, 0, 0, 0.7)
   ),
   url('./darkMountains.jpg') no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   height: 100vh;
   width: 100vw;
   display: flex;
