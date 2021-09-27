@@ -13,7 +13,7 @@ function Projects() {
           </div>
           <div className="button-container">
             <a href="https://github.com/DaTrueBrad/pokemon-team-builder" target="_blank"><i class='bx bx-code-block'></i></a>
-            <a href="https://pokemon-team-and-stats.herokuapp.com/" target="_blank"></a><i class='bx bx-globe'></i>
+            <a href="https://pokemon-team-and-stats.herokuapp.com/" target="_blank"><i class='bx bx-globe'></i></a>
           </div>
         </div>
 
