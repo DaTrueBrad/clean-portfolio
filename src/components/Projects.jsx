@@ -8,7 +8,10 @@ function Projects() {
         <div className="project-card">
           <div>
             <h2>Pokemon Team Builder</h2>
-            <iframe src="https://drive.google.com/file/d/1uBSVvqlTE8PuFtH4got1eI9bMxEvTze3/preview" allow="autoplay"></iframe>
+            <div className="iframe-container">
+              <iframe src="https://drive.google.com/file/d/1uBSVvqlTE8PuFtH4got1eI9bMxEvTze3/preview" allow="autoplay" className='responsive-iframe'></iframe>
+
+            </div>
             <p>This app uses Axios GET requests to dig into a REST API which displays select data on the front end for use by the user.</p>
           </div>
           <div className="button-container">
