@@ -20,7 +20,7 @@ function Projects() {
         <div className="project-card">
           <div>
             <h2>New U Fitness</h2>
-            <iframe src="https://drive.google.com/file/d/1_QUVEOI1536M5mkX7mIcDjuRGENw_GWZ/preview" allow="autoplay"></iframe>
+            <img src="./newu.png" alt="" />
             <p>New U is an online platform for users to center their physical health. Users can create workouts themselves or pick one from a pre-made template made by a top coach, and follow along tracking their progress! If users are not familiar on the ins-and-outs of health and fitness, New U has an articles page where the most informative, simple, and correct articles on the planet will be linked so users can have guidance on their journey.</p>
           </div>
           <div className="button-container">
