@@ -250,7 +250,13 @@ select {
     padding: 15px;
     border-radius: 5px;
     width: 100%;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
   }
+
+  .projet-card p {
+    margin-top: 5px;
+  }
+  
   .iframe-container {
     position: relative;
     overflow: hidden;
@@ -258,6 +264,7 @@ select {
     padding-top: 56.25%;
     box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
     border-radius: 5px;
+    margin-bottom: 10px;
   }
   
   .responsive-iframe {
@@ -277,6 +284,7 @@ select {
     height: auto;
     width: 100%;
     box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
   }
 
   .tech-project {
@@ -556,6 +564,7 @@ header i:hover {
   border-radius: 5px;
   height: 80vh;
   width: 30%;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.8);
 }
 
 .iframe-container {
@@ -565,6 +574,7 @@ header i:hover {
   padding-top: 56.25%;
   box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .responsive-iframe {
@@ -584,6 +594,7 @@ header i:hover {
   height: auto;
   width: 100%;
   box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+  margin-bottom: 10px;
 }
 
 .tech-project {
@@ -597,6 +608,13 @@ header i:hover {
   justify-content: space-around;
   width: 100%;
   margin-top: 8px;
+}
+
+.button-container h4, a {
+  text-decoration: none;
+  color: #D1603D;
+  margin: 0;
+  padding: 0;
 }
 
 .button-container i {
